@@ -4,7 +4,7 @@ const handlebars = require("express-handlebars").engine
 const bodyParser = require("body-parser")
 const { initializeApp, cert } = require('firebase-admin/app');
 const { getFirestore } = require('firebase-admin/firestore');
-const serviceAccount = require('./webiidesenvolvimento-firebase-adminsdk-hk2hh-1316c85597.json');
+const serviceAccount = require('./banco-35e4e-firebase-adminsdk-8ysr7-d1dca3067d.json');
 
 initializeApp({
   credential: cert(serviceAccount)
